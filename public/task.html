@@ -26,6 +26,16 @@
           <input type="text" name="name" class="task-edit-name" />
         </div>
         <div class="form-control">
+          <label for="comment">Comments</label>
+          <textarea
+            name="comment"
+            minlength="5"
+            maxlength="200"
+            required
+            class="task-edit-comment"
+          ></textarea>
+        </div>
+        <div class="form-control">
           <label for="completed">completed</label>
           <input type="checkbox" name="completed" class="task-edit-completed" />
         </div>
